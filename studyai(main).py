@@ -1,6 +1,5 @@
 from pymongo import MongoClient
 from sentence_transformers import SentenceTransformer, util
-print("hello world")
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 db = client['study']
